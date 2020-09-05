@@ -22,7 +22,7 @@ async function submitForm(e, form) {
     console.log(response);
     // 2.5 Inform user of result
     if(response)
-        window.location = '/success.html';
+        window.location = `/success.html?FirstName=${response.FirstName}&LastName=${response.LastName}&Email=${response.Email}&id=${response.id}`;
     else
         alert(`An error occured.`);
 }
