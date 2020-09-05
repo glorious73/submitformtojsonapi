@@ -1,0 +1,30 @@
+{
+  "name": "submittingformstoapis",
+  "version": "1.0.0",
+  "description": "demo to submit html forms to APIs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/*.html --out-dir dev",
+    "build": "parcel build src/*.html"
+  },
+  "keywords": [
+    "form",
+    "html",
+    "json",
+    "api",
+    "fetch",
+    "post",
+    "request"
+  ],
+  "author": "Amjad Abujamous",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-html-partials": "0.0.6",
+    "save": "^2.4.0"
+  }
+}
