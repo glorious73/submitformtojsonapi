@@ -4,8 +4,9 @@
   "description": "demo to submit html forms to APIs",
   "main": "index.html",
   "scripts": {
-    "dev": "parcel src/*.html --out-dir dev",
-    "build": "parcel build src/*.html"
+    "dev": "npm run clean && parcel src/index.html --out-dir dev",
+    "build": "parcel build src/*.html",
+    "clean": "rimraf ./dev && rimraf -rf ./.cache"
   },
   "keywords": [
     "form",
