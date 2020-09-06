@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npm run clean && parcel src/index.html --out-dir dev",
-    "build": "parcel build src/*.html",
+    "build": "parcel build src/*.html --public-url ./",
     "clean": "rimraf ./dev && rimraf -rf ./.cache"
   },
   "keywords": [
